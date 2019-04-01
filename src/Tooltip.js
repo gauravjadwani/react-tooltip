@@ -8,7 +8,7 @@ class Tooltip extends Component {
         <div className={(this.props.parentClass)?(this.props.parentClass):("TooltipParentWrapper")}>
           {this.props.childrenElement}
           <span className={(this.props.childClass)?(this.props.childClass):("TooltipChildWrapper")}>{this.props.tooltipText}</span>
-        </div>;
+        </div>
       </div>
     );
   }
