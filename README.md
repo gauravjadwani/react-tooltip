@@ -12,19 +12,19 @@ A basic understanding of React.js
 
 
 ### Props
-| Prop Name  | Prop Type|  Prop Definition|
-| ------------- | ------------- | | ------------- |
-| parentClass  | String | class selector of css  |
-| childClass  | String  | class selector of css |
-| childrenElement  | String or JSX  | Element on which tooltip is hovered |
-| tooltipText  | String or JSX   | Content of tooltlip  |
-| style  | object  | Style of the element  |
+|  Prop Name          | Prop Type           | Prop Definition   |
+| ------------- |:-------------:| :-----:|
+| parentClass      | String  | class selector of css   |
+| childClass      | String      |  class selector of css   |
+| childrenElement | String or JSX     |    Element on which tooltip is hovered |
+| tooltipText  | String or JSX      |  Content of tooltip   |
+| style | object     |  Style of the element     |
 
 
 ### Examples
 Example specific to react
 ```
-<Tooltip childrenElement={<div>Adam</div>} 
+<Tooltip childrenElement={<div>Adam</div>}
   tooltipText={<span>Hey this is my name</span>}
   childStyle={{}} parentStyle={{}}/>
 ```
