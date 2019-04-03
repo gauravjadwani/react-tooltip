@@ -24,6 +24,8 @@ A basic understanding of React.js
 ### Examples
 Example specific to react
 ```
+import Tooltip from "simple-tooltip-component";
+
 <Tooltip childrenElement={<div>Adam</div>}
   tooltipText={<span>Hey this is my name</span>}
   childStyle={{}} parentStyle={{}}/>
