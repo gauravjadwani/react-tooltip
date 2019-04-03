@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
+import './Tooltip.css';
 
 class Tooltip extends Component {
   render() {
-    console.log('props in this class',this.props);
     return (
       <div>
         <div className={(this.props.parentClass)?(this.props.parentClass):("TooltipParentWrapper")}>
